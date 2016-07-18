@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{ce648e32-a364-44a1-89ef-58137efaea72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Application">
+      <UniqueIdentifier>{2b18ccef-308a-4c07-97fb-b0ecd4f2e1c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Modules">
+      <UniqueIdentifier>{ed35c2b8-295d-4bb6-8bad-4442dc3cb897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{5466dec6-8e45-4140-be19-ef91038031f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{593697c4-3316-48a4-92f9-c8250c54a350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{c9ecdbe7-1063-4463-9fdd-efe1bd851b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Entity">
+      <UniqueIdentifier>{32dc0d12-8c6d-4287-a3d9-06c060787576}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>Core\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLoopModule.cpp">
+      <Filter>Core\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneModule.cpp">
+      <Filter>Core\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Scene\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>Core\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLoopModule.h">
+      <Filter>Core\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="RuntimeStatus.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneModule.h">
+      <Filter>Core\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="IUpdatable.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Scene\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="IModule.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IEnableable.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
